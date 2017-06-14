@@ -1,0 +1,4 @@
+C:/Users/USER/Documents/GitHub/KDM-Lab-Assignments/lab1/source/NLP Question Answering/NLPQA/dataset
+BBCSPORT1.story
+BBCSPORT2.story
+BBCSPORT3.story
