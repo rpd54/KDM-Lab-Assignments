@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/USER/Downloads/CS5560-%20Tutorial2A-Spark%20WordCount/Spark%20WordCount/}root...
+[info] Updating {file:/C:/Users/USER/Documents/GitHub/KDM-Lab-Assignments/lab3/Source/CorenlpQA/}root...
 [debug] :: resolving dependencies :: mainclass#mainclass_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for mainclass#mainclass_2.11;1.0 [compile]
 [debug] == resolving dependencies mainclass#mainclass_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2053fdac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cb0e29b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -287,39 +287,8 @@
 [debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving org.apache.commons#commons-math;2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-math;2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-math;2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\USER\.ivy2\local\org.apache.commons\commons-math\2.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.apache.commons#commons-math;2.1
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom
-[debug] 	public: found md file for org.apache.commons#commons-math;2.1
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom (2.1)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-math;2.1!commons-math.pom(pom.original) (297ms)
-[info] Resolving org.apache.commons#commons-parent;14 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;14 {}
-[info] Resolving org.apache.commons#commons-parent;14 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;14 {}
-[debug] 		tried C:\Users\USER\.ivy2\local\org.apache.commons\commons-parent\14\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.apache.commons#commons-parent;14
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom
-[debug] 	public: found md file for org.apache.commons#commons-parent;14
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom (14)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;14!commons-parent.pom(pom.original) (329ms)
-[info] Resolving org.apache#apache;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;7 {}
-[debug] sbt-chain: module revision found in cache: org.apache#apache;7
-[debug] 		tried C:\Users\USER\.ivy2\local\org.apache.commons\commons-parent\14\jars\commons-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.jar
-[debug] 	found org.apache.commons#commons-math;2.1 in public
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
+[debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-math;2.1 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->xmlenc#xmlenc;0.52 [compile->master(compile)]
 [debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -596,22 +565,8 @@
 [debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-auth;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.hadoop#hadoop-auth;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\USER\.ivy2\local\org.apache.hadoop\hadoop-auth\2.2.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-auth;2.2.0
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-auth;2.2.0
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom (2.2.0)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.pom(pom.original) (209ms)
-[info] Resolving org.apache.hadoop#hadoop-project;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-project;2.2.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-project;2.2.0
-[debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in public
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
 [debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
@@ -3742,7 +3697,7 @@
 [debug] == resolving dependencies mainclass#mainclass_2.11;1.0->org.apache.spark#spark-mllib_2.11;1.6.1 [compile->master]
 [debug] == resolving dependencies mainclass#mainclass_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.6.0 [compile->default(compile)]
 [info] Resolving edu.stanford.nlp#stanford-corenlp;3.6.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5440315f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9887a6e
 [debug] sbt-chain: module revision found in cache: edu.stanford.nlp#stanford-corenlp;3.6.0
 [debug] 	found edu.stanford.nlp#stanford-corenlp;3.6.0 in sbt-chain
 [debug] == resolving dependencies mainclass#mainclass_2.11;1.0->edu.stanford.nlp#stanford-corenlp;3.6.0 [compile->runtime]
@@ -22599,19 +22554,19 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 7363ms :: artifacts dl 190ms
-[debug] 	report for mainclass#mainclass_2.11;1.0 compile produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-compile.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 runtime produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-runtime.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 test produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-test.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 provided produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-provided.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 optional produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-optional.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 compile-internal produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-compile-internal.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 runtime-internal produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-runtime-internal.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 test-internal produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-test-internal.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 plugin produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-plugin.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 sources produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-sources.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 docs produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-docs.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 pom produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-pom.xml
-[debug] 	report for mainclass#mainclass_2.11;1.0 scala-tool produced in C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount\target\resolution-cache\reports\mainclass-mainclass_2.11-scala-tool.xml
-[debug] 	resolve done (7363ms resolve - 190ms download)
+[debug] :: resolution report :: resolve 9184ms :: artifacts dl 189ms
+[debug] 	report for mainclass#mainclass_2.11;1.0 compile produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-compile.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 runtime produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-runtime.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 test produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-test.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 provided produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-provided.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 optional produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-optional.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 compile-internal produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-compile-internal.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 runtime-internal produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-runtime-internal.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 test-internal produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-test-internal.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 plugin produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-plugin.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 sources produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-sources.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 docs produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-docs.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 pom produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-pom.xml
+[debug] 	report for mainclass#mainclass_2.11;1.0 scala-tool produced in C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA\target\resolution-cache\reports\mainclass-mainclass_2.11-scala-tool.xml
+[debug] 	resolve done (9184ms resolve - 189ms download)
 [info] Done updating.

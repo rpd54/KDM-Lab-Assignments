@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170617180031"/>
+		date="20170707115350"/>
 	<dependencies>
 		<module organisation="edu.stanford.nlp" name="stanford-corenlp">
 			<revision name="3.6.0" status="release" pubdate="20160121011639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nlp.stanford.edu/software/corenlp.shtml" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="143">
@@ -873,8 +873,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-auth">
-			<revision name="2.2.0" status="release" pubdate="20131006232854" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="29">
-				<metadata-artifact status="successful" details="" size="7028" time="514" location="C:\Users\USER\.ivy2\cache\org.apache.hadoop\hadoop-auth\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\USER\.ivy2\cache\org.apache.hadoop\hadoop-auth\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom"/>
+			<revision name="2.2.0" status="release" pubdate="20131006232854" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="25184" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.hadoop\hadoop-auth\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom"/>
 				<caller organisation="mainclass" name="mainclass$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-auth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37782" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.hadoop\hadoop-auth\srcs\hadoop-auth-2.2.0-sources.jar">
@@ -1049,8 +1050,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-math">
-			<revision name="2.1" status="release" pubdate="20100327194801" resolver="public" artresolver="public" homepage="http://commons.apache.org/math/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="20">
-				<metadata-artifact status="successful" details="" size="10325" time="297" location="C:\Users\USER\.ivy2\cache\org.apache.commons\commons-math\ivy-2.1.xml" searched="true" original-local-location="C:\Users\USER\.ivy2\cache\org.apache.commons\commons-math\ivy-2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom"/>
+			<revision name="2.1" status="release" pubdate="20100327194801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6192" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.commons\commons-math\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom"/>
 				<caller organisation="mainclass" name="mainclass$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="commons-math" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1027714" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.commons\commons-math\srcs\commons-math-2.1-sources.jar">
@@ -1246,11 +1248,11 @@
 				<metadata-artifact status="no" details="" size="5424" time="0" location="C:\Users\USER\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.pom"/>
 				<caller organisation="mainclass" name="mainclass$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="C:\Users\USER\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\jars\metrics-graphite-3.1.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
-					</artifact>
 					<artifact name="metrics-graphite" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10675" time="0" location="C:\Users\USER\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\srcs\metrics-graphite-3.1.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="C:\Users\USER\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\jars\metrics-graphite-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1731,7 +1733,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-recipes">
 			<revision name="2.4.0" status="release" pubdate="20140205150911" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
-				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7690" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.curator\curator-recipes\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.pom"/>
 				<caller organisation="mainclass" name="mainclass$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
@@ -1746,7 +1748,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-framework">
 			<revision name="2.4.0" status="release" pubdate="20140205150848" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
-				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7537" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.curator\curator-framework\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.pom"/>
 				<caller organisation="mainclass" name="mainclass$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
@@ -1761,7 +1763,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-client">
 			<revision name="2.4.0" status="release" pubdate="20140205150826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
-				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\USER\Downloads\CS5560- Tutorial2A-Spark WordCount\Spark WordCount/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\USER\Documents\GitHub\KDM-Lab-Assignments\lab3\Source\CorenlpQA/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7585" time="0" location="C:\Users\USER\.ivy2\cache\org.apache.curator\curator-client\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.pom"/>
 				<caller organisation="mainclass" name="mainclass$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
