@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2017/6/TrumpOntology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2017/6/TrumpOntology#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="president"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Daughter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UnitedStates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="fullName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UMSL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="California"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wife"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="stateName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stlouis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UMKC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OffSpring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="President"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="cityName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="President"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasCity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Trump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="kansascity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ivanka"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="CountryName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Husband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Father"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="State"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Missouri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Son"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="fullname"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasPresident"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="City"/>
+        <Class IRI="State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Daughter"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Father"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Husband"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mother"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OffSpring"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Son"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="State"/>
+        <Class IRI="Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wife"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="State"/>
+        <NamedIndividual IRI="California"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Daughter"/>
+        <NamedIndividual IRI="Ivanka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="State"/>
+        <NamedIndividual IRI="Missouri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="State"/>
+        <NamedIndividual IRI="Stlouis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Person"/>
+        <NamedIndividual IRI="Trump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="University"/>
+        <NamedIndividual IRI="UMKC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="University"/>
+        <NamedIndividual IRI="UMSL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Country"/>
+        <NamedIndividual IRI="UnitedStates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Country"/>
+        <NamedIndividual IRI="UnitedStates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="City"/>
+        <NamedIndividual IRI="kansascity"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasCity"/>
+        <NamedIndividual IRI="Missouri"/>
+        <NamedIndividual IRI="kansascity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="isA"/>
+        <NamedIndividual IRI="Trump"/>
+        <NamedIndividual IRI="President"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="fullName"/>
+        <NamedIndividual IRI="Ivanka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ivanka Trump</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasCity"/>
+        <Class IRI="State"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasPresident"/>
+        <Class IRI="Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isA"/>
+        <Class IRI="President"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasCity"/>
+        <Class IRI="City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasPresident"/>
+        <Class IRI="President"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isA"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="CountryName"/>
+        <Class IRI="Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="cityName"/>
+        <Class IRI="City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="fullname"/>
+        <Class IRI="Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="stateName"/>
+        <Class IRI="State"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="CountryName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="cityName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="fullname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="stateName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

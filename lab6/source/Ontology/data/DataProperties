@@ -1,0 +1,4 @@
+cityName,City,string
+CountryName,Country,string
+fullname,Person,string
+stateName,State,string
