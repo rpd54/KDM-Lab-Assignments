@@ -1,0 +1,3 @@
+hasCity,State,City
+hasPresident,Country,President
+isA,President,Person
